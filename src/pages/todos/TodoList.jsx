@@ -36,6 +36,7 @@ const TodoList = (props) => {
       <CreateTodoDialog
         open={openDialog}
         onClose={() => setDialog(!openDialog)}
+        action='edit'
       />
     </Grid>
   );
